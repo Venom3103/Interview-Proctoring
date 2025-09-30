@@ -1,4 +1,4 @@
-# Focus Proctoring — Complete (MVP)
+# Interview Proctoring
 
 ## Features included
 - Candidate/Admin unified login (choose role) with OTP (SendGrid) and admin JWT auth
@@ -9,7 +9,7 @@
 
 ## Quick start
 1. Copy `.env.example` to `.env.local` and set:
-   - MONGODB_URI, SENDGRID_API_KEY (optional), JWT_SECRET, OPENAI_API_KEY
+   - MONGODB_URI, SENDGRID_API_KEY, JWT_SECRET, OPENAI_API_KEY
 2. Install deps: `npm install`
 3. Run: `npm run dev`
 4. Open http://localhost:3000
