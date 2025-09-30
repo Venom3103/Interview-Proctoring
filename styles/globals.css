@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --bg:#071029; --card:#0f1724; --accent:#7c3aed; }
+body { background: linear-gradient(180deg,var(--bg),#001021); font-family: Inter, ui-sans-serif, system-ui; }
+.card { background: rgba(255,255,255,0.03); }
+.small { color: #9fb0d7; }
